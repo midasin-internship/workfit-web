@@ -12,7 +12,7 @@ window.onload = () => {
 
     /* Request */
     const req = new XMLHttpRequest()
-    req.open("GET","http://dev.workfit.kro.kr:8080/employees/statistics?quarter="+quarter+"&year="+year)
+    req.open("GET","//dev.workfit.kro.kr:8080/employees/statistics?quarter="+quarter+"&year="+year)
     req.setRequestHeader("Access-Control-Allow-Origin","*")
     req.setRequestHeader("Access-Control-Allow-Credentials",true)
     req.setRequestHeader("Access-Control-Allow-Methods","GET")
